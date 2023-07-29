@@ -17,6 +17,7 @@ public class JenkinsSpringProjectApplication {
 
     public static void main(String[] args) {
         logger.info("Application executing ...");
+        logger.info("Application executing twice ...");
 		SpringApplication.run(JenkinsSpringProjectApplication.class, args);
     }
 
